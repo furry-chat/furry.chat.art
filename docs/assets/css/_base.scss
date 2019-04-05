@@ -5,14 +5,17 @@
 }
 
 .card-image {
+	$size: 20rem;
 	.image {
-		height: 300px;
+		height: $size;
 		a {
 			display: grid;
+			height: $size;
+			padding: 1rem;
 			img {
 				align-self: center;
 				justify-self: center;
-				max-height: 300px;
+				max-height: ($size - 2)rem;
 				width: auto;
 			}
 		}
