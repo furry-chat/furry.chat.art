@@ -4,13 +4,17 @@
 	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
-.image {
-	&.is-square {
-		img {
-			max-width: 100%;
-			max-height: 100%;
-			width: auto;
-			height: auto;
+.card-image {
+	.image {
+		height: 300px;
+		a {
+			display: grid;
+			img {
+				align-self: center;
+				justify-self: center;
+				max-height: 300px;
+				width: auto;
+			}
 		}
 	}
 }
