@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "theme.css",
+	"sources": [
+		"theme.scss",
+		"assets/css/_base.scss"
+	],
+	"sourcesContent": [
+		"@import \"base.scss\";\n",
+		".grid {\n\tdisplay: grid;\n\tgrid-gap: 2rem;\n\tgrid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));\n}\n\n.card-image {\n\t$size: 20rem;\n\t.image {\n\t\theight: $size;\n\t\ta {\n\t\t\tdisplay: grid;\n\t\t\tborder-bottom: 1px solid rgba(10, 10, 10, .1);\n\t\t\tpadding: 1rem;\n\t\t\theight: $size;\n\t\t\toverflow: hidden;\n\t\t\timg {\n\t\t\t\talign-self: center;\n\t\t\t\tjustify-self: center;\n\t\t\t\tmax-height: ($size - 2);\n\t\t\t\twidth: auto;\n\t\t\t}\n\t\t}\n\t}\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,KAAK,AAAC,CACL,OAAO,CAAE,IAAI,CACb,QAAQ,CAAE,IAAI,CACd,qBAAqB,CAAE,oCAAoC,CAC3D,AAED,AAEC,WAFU,CAEV,MAAM,AAAC,CACN,MAAM,CAFA,KAAK,CAgBX,AAjBF,AAIE,WAJS,CAEV,MAAM,CAEL,CAAC,AAAC,CACD,OAAO,CAAE,IAAI,CACb,aAAa,CAAE,GAAG,CAAC,KAAK,CAAC,kBAAoB,CAC7C,OAAO,CAAE,IAAI,CACb,MAAM,CAPD,KAAK,CAQV,QAAQ,CAAE,MAAM,CAOhB,AAhBH,AAUG,WAVQ,CAEV,MAAM,CAEL,CAAC,CAMA,GAAG,AAAC,CACH,UAAU,CAAE,MAAM,CAClB,YAAY,CAAE,MAAM,CACpB,UAAU,CAAE,KAAW,CACvB,KAAK,CAAE,IAAI,CACX"
+}
